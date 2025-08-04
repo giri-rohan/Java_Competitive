@@ -55,13 +55,11 @@ class Twosum {
         Twosum obj=new Twosum();
 
       int[] result = obj.twoSum(nums, target);
-
     if (result.length == 2) {
         System.out.println("Indices of numbers adding to target: " + result[0] + " and " + result[1]);
 }   else {
          System.out.println("No valid pair found.");
 }
-
 sc.close(); 
 
     }
