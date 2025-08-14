@@ -43,12 +43,12 @@ class Twosum {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int target;
-        System.err.println("enter target");
+        System.out.println("enter target");
         target=sc.nextInt();
         System.out.println("enter the no of elements ");
         int n=sc.nextInt();
         int nums[]=new int[n];
-        System.err.println("enter thee elements");
+        System.out.println("enter thee elements");
           for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
